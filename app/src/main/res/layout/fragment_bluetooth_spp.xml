@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        android:id="@+id/serial_comm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edit_text_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/remote_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/remoteButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forward Nudge" />
+        <Button
+            android:id="@+id/remoteButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Backward Nudge" />
+        <Button
+            android:id="@+id/remoteButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leftish" />
+        <Button
+            android:id="@+id/remoteButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rightish" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/remote_control2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/remoteButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blink" />
+        <Button
+            android:id="@+id/remoteButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+        <Button
+            android:id="@+id/remoteButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound" />
+        <Button
+        android:id="@+id/remoteButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motion" />
+        <Button
+            android:id="@+id/remoteButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compass" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/dpad_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/dpadButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button_icon_forward"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton1"
+            android:layout_toLeftOf="@+id/dpadButton3"
+            android:src="@drawable/button_icon_left"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button_icon_stop"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton1"
+            android:layout_toRightOf="@id/dpadButton3"
+            android:src="@drawable/button_icon_right"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton3"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/button_icon_reverse"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton5"
+            android:src="@drawable/button_icon_play"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton5"
+            android:layout_toRightOf="@id/dpadButton6"
+            android:src="@drawable/button_icon_attack"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton5"
+            android:layout_toRightOf="@id/dpadButton7"
+            android:src="@drawable/button_icon_play"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton5"
+            android:layout_toRightOf="@id/dpadButton8"
+            android:src="@drawable/button_icon_play"
+            style="?android:attr/borderlessButtonStyle" />
+        <ImageButton
+            android:id="@+id/dpadButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpadButton5"
+            android:layout_toRightOf="@id/dpadButton9"
+            android:src="@drawable/button_icon_play"
+            style="?android:attr/borderlessButtonStyle" />
+    </RelativeLayout>
+
+</LinearLayout>

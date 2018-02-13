@@ -1,0 +1,4 @@
+Button1	cmd1
+Button2 cmd2
+Button3 cmd3
+Button4 cmd4

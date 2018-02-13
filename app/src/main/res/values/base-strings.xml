@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JeT Bluetooth SPP</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            Communicate with a serial Bluetooth device:
+              (1) Select from paired devices
+              (2) Scan for new devices
+              (3) Customize remote connection details
+              (4) Send text over Bluetooth with a button press
+              (5) Customize the buttons and text
+
+
+        ]]>
+    </string>
+</resources>

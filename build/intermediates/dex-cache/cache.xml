@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\615493addf4627cde6c2351e74033d4db1dce914\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07b171690230ff87653cc2ccd83d91ec76c5bf30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\e7a0085e8fe764c6ddfdab86b96aabd13602c12b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_be6303134938c643406414a873ccb610a0e5fe1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\74144d39fbca09ea77b8c2c3beb02d10ef58b206\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b0ffd3e4dd63590d54c1e823bef1a4fdb0f3f66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9d0d4fa56b357a65fb44bf03046b96007a79173e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f0ba955c885010aca8bc2700ce41aba56f06297\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c63743c02180b448f2b56e7f6ac6446e16b43dbb">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8f2ecd2bd8f928571d685ecebeeef86d856f154c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\6aa253aa2efb6cd873073e6ac744ba130cd31842\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35dfb5ef14b78808d8e9b7629912a13a1646e29c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_20d18068b73ab59e6b3f33758c06a639a324d4a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\6aa253aa2efb6cd873073e6ac744ba130cd31842\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_9cd9f947c9754a9a5e5ea0f3e8163b133029f881\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8b571364c1229a5ecc4fef863acb773b0c466b91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\3ab30f54876d727b623d157d624b94abd6efdd68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d46e87621da1942d51d0452fb38679f48b3f74f8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\User\AndroidStudioProjects\JeTBluetoothSPP\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8b571364c1229a5ecc4fef863acb773b0c466b91\classes.dex" />
+    </item>
+
+</items>
